@@ -3,3 +3,5 @@ Code from eletino.de
 
 **Built with**
 - Bootstrap
+- JavaScript
+- HTML
