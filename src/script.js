@@ -1,7 +1,7 @@
 const btn = document.querySelector(".btn-toggle");
 const theme = document.documentElement;
 
-// Hilfsfunktionen für Cookies
+
 function setCookie(name, value, days) {
   let expires = "";
   if (days) {
@@ -23,7 +23,6 @@ function getCookie(name) {
   return null;
 }
 
-// Theme laden (erst aus Cookie, sonst System-Theme)
 function loadTheme() {
   let savedTheme = getCookie("theme");
   if (!savedTheme) {
@@ -51,5 +50,6 @@ btn.addEventListener("click", () => {
   const current = theme.getAttribute("data-bs-theme");
   applyTheme(current === "light" ? "dark" : "light");
 });
+
 
 loadTheme();
