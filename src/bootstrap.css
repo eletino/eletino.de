@@ -1,8 +1,10 @@
-@charset "UTF-8";/*!
+@charset "UTF-8";
+/*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */:root,
+ */
+ :root,
  [data-bs-theme=light] {
      --el-btn-toggle: #e9e9ed;
      --bs-card-spacer-y: 1rem;
@@ -13913,4 +13915,5 @@
      .d-print-none {
          display: none !important
      }
+
  }/*# sourceMappingURL=bootstrap.min.css.map */
